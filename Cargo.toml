@@ -1,0 +1,16 @@
+[workspace]
+resolver = "2"
+members = [
+  "crates/gd-save",
+  "crates/gd-discovery",
+  "crates/gd-db",
+  "src-tauri",
+]
+
+[workspace.package]
+edition = "2024"
+version = "1.0.0"
+
+[workspace.dependencies]
+serde = { version = "1", features = ["derive"] }
+thiserror = "2"

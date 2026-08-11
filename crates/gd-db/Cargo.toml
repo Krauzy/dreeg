@@ -1,0 +1,15 @@
+[package]
+name = "gd-db"
+version.workspace = true
+edition.workspace = true
+license = "EPL-1.0"
+
+[dependencies]
+image = { version = "0.25", default-features = false, features = ["png"] }
+image_dds = { version = "0.7.2", default-features = false, features = ["ddsfile", "image"] }
+lz4_flex = "0.12"
+serde.workspace = true
+thiserror.workspace = true
+
+[target.'cfg(windows)'.dependencies]
+winreg = "0.55"

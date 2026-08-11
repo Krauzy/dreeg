@@ -1,0 +1,11 @@
+[package]
+name = "gd-discovery"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+gd-save = { path = "../gd-save" }
+serde.workspace = true
+
+[target.'cfg(windows)'.dependencies]
+winreg = "0.55"

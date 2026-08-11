@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="38%" r="70%">
+      <stop offset="0" stop-color="#34382b"/>
+      <stop offset="1" stop-color="#111411"/>
+    </radialGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e0c984"/>
+      <stop offset="0.5" stop-color="#9f8957"/>
+      <stop offset="1" stop-color="#66583b"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="9"/></filter>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="url(#bg)"/>
+  <path d="M256 66 446 256 256 446 66 256Z" fill="none" stroke="#5d634d" stroke-width="13"/>
+  <path d="M256 107 405 256 256 405 107 256Z" fill="#171a16" stroke="url(#metal)" stroke-width="10"/>
+  <circle cx="256" cy="256" r="104" fill="#9f8957" opacity=".18" filter="url(#glow)"/>
+  <path d="M190 164h78c67 0 108 34 108 91 0 58-42 93-111 93h-75V164Zm62 47v90h17c30 0 49-16 49-46 0-29-19-44-49-44h-17Z" fill="url(#metal)"/>
+  <path d="M159 256h-43m280 0h-43M256 116V82m0 348v-34" stroke="#b9a36b" stroke-width="8" stroke-linecap="round"/>
+</svg>
+

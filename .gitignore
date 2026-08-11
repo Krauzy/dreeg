@@ -1,0 +1,11 @@
+node_modules/
+.npm-cache/
+.cargo-home/
+dist/
+target/
+target-update/
+src-tauri/target/
+.vite/
+*.log
+*.tsbuildinfo
+.DS_Store

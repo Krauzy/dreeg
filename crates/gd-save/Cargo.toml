@@ -1,0 +1,10 @@
+[package]
+name = "gd-save"
+version.workspace = true
+edition.workspace = true
+license = "EPL-1.0"
+
+[dependencies]
+serde.workspace = true
+thiserror.workspace = true
+
